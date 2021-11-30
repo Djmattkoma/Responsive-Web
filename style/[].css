@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(216, 113, 216);
+}
+
+section{
+    margin: 100px;
+}
+
+.menuactivator{
+    height: 50px; 
+    width: 50px;
+    border: 5px;
+    border-color: whitesmoke;
+    border-style: dashed;
+    /*position: fixed;
+    top: 50%;
+    left: 10%;*/
+}
+
+.menuactivator .line{
+    height: 5px; 
+    width: 50px;
+    position: relative;
+    top: 20%;
+    background-color: indigo;
+    margin:  5px 0;
+}
+
+.menus .fream{
+    display: block;
+    text-align: left;
+    color: whitesmoke;
+    border: 5px;
+    border-style: dashed;
+    height: 50px;
+    width: 300px;
+    display: none;
+    position: fixed;
+    top: 8px;
+    left: 70px;
+}
+
+.menus .fream a{
+    text-decoration: none;
+    font-size: 15pt;
+    color: whitesmoke;
+    position: relative;
+    top: 15px;
+    left: 5%;
+}
+
+.menus.active .fream {
+    display:block;
+  }
+
+/*.popupmenu .fream{
+    position:fixed;
+    top:10px;
+    left:10px;
+    width:100vw;
+    height:100vh;
+    z-index:1;
+    display:none;
+}
+
+.popupmenu .content {
+    position:absolute;
+    padding: 55px;
+    background-color: magenta;
+    border: whitesmoke;
+    border-width: 3px;
+    border-radius:  25px;
+    border-style: dashed;
+}
+
+a{
+    color: whitesmoke;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+.popupmenu.active .fream {
+    display:none;
+  }
+.menuactivator{
+    height: 50px; 
+    width: 50px;
+    border-color: whitesmoke;
+    border-style: dashed;
+    position: fixed;
+    top: 50%;
+    left: 10%;
+}
+
+
+.menuactivator .line{
+    height: 5px; 
+    width: 50px;
+    position: relative;
+    top: 20%;
+    background-color: indigo;
+    margin:  5px 0;
+ }
+
+
+ .menuactivator2{
+    height: 60px; 
+    width: 60px;
+    border-color: whitesmoke;
+    border-style: dashed;
+    position: fixed;
+    top: 50%;
+    left: 10%;
+}
+
+.menuactivator2 .line{
+    height: 5px; 
+    width: 50px;
+    position: relative;
+    top:6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background-color: indigo;
+    margin:  6px 0;
+ }
+
+*/

@@ -1,0 +1,146 @@
+body{
+    background-color: lightpink;
+}
+
+/*main{
+    background-color: magenta;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    /*border-radius: 3%;*//*}
+*/
+
+/*#----- Website basics-----#*/
+#base{
+    background-color: magenta;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    /*border-radius: 3%;*/
+}
+
+.basicobj{
+    padding: 25px;
+
+    text-align: center;
+    font-size:15pt;
+    color: whitesmoke;
+    background-color: rgba(255, 0, 255,);
+
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-radius: 20px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contetbox{
+    padding: 50px;
+    border: 5px;
+    border-color: darkmagenta;
+    border-style: dashed;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+}
+
+.content{
+    padding: 50px;
+    background-color: palevioletred;
+}
+
+/*#-----Only Menus-----x*/
+
+#headermenu{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+#menu-1{
+    display: block;
+    text-align: left;
+    width: 300px;
+    float: left;
+    position: fixed;
+    top: 48px;
+    left: 120px;
+}
+
+#socmedia{
+    display: block;
+    text-align: right;
+    width: 300px;
+    /*float: right;
+    position: absolute;
+    top: 0px;
+    left: 0px;*/
+}
+
+/*#menus{
+    display: block;
+    text-align: left;
+    color: whitesmoke;
+    border: 5px;
+    border-style: dashed;
+    width: 300px;
+    /*border-color: blue;
+    border-radius: 30%;
+    padding: 25px;*//*/
+}*/
+
+.menuactivator{
+    height: 50px; 
+    width: 50px;
+    border: 5px;
+    border-color: whitesmoke;
+    border-style: dashed;
+    /*position: fixed;
+    top: 50%;
+    left: 10%;*/
+}
+
+.menuactivator .line{
+    height: 5px; 
+    width: 50px;
+    position: relative;
+    top: 20%;
+    background-color: indigo;
+    margin:  5px 0;
+}
+
+#menuactivator-2{
+    float: right;
+}
+
+.menus .fream{
+    display: block;
+    text-align: left;
+    color: whitesmoke;
+    border: 5px;
+    border-style: dashed;
+    border-color: whitesmoke;
+    height: 50px;
+    width: 300px;
+    display: ;
+}
+
+.menus .fream a{
+    text-decoration: none;
+    font-size: 15pt;
+    color: whitesmoke;
+    position: relative;
+    top: 15px;
+    left: 5%;
+}
+
+.menus.active .fream {
+    display:inline-block;
+  }
